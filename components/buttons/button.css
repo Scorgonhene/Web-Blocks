@@ -1,3 +1,30 @@
-.button {
-  display: inline-block;
+.button{
+  display :inline-block;
+  border : 2px outset blue;
+  background-color : gold;
+  color : black;
+  font-family : fantasy;
+  font-size : 13px;
+  text-align : center;
+  width : 200px;
+  text-decoration : none;
+  
+}
+
+.button:hover {
+  color : red;
+}
+.button:active {
+  pointer-events: none;
+  cursor: default;
+}
+
+.button-lg{
+  width : 500px;
+}
+.button-md{
+  width : 300px;
+}
+.button-sm{
+  width : 100px;
 }
